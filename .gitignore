@@ -1,0 +1,11 @@
+# Block Massive GIS Files
+*.mbtiles
+*.tif
+*.vrt
+
+# Block Generated Map Tiles (You don't want to push thousands of PNGs to GitHub)
+assets/map_tiles/
+assets/dem_tiles/
+
+# Standard Flutter Build/Cache Directories
+build/
